@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4ac967ed-a16c-41ff-8887-287ceb7d9155": {
+        "id": "4ac967ed-a16c-41ff-8887-287ceb7d9155",
+        "parent": null,
+        "name": "oregontesty",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "cf1e9506-d46c-4ea7-b7a9-891e43fad2ef"
+        ],
+        "isRemovable": false,
+        "filePath": "oregontesty"
+      },
+      "cf1e9506-d46c-4ea7-b7a9-891e43fad2ef": {
+        "id": "cf1e9506-d46c-4ea7-b7a9-891e43fad2ef",
+        "parent": "4ac967ed-a16c-41ff-8887-287ceb7d9155",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "oregontesty/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusWest2sachithraindunilqatstany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "4ac967ed-a16c-41ff-8887-287ceb7d9155",
+    "openFiles": [
+      "cf1e9506-d46c-4ea7-b7a9-891e43fad2ef"
+    ],
+    "currentFileId": "cf1e9506-d46c-4ea7-b7a9-891e43fad2ef",
+    "resources": {
+      "apigusWest2sachithraindunilqatstany": {
+        "name": "apigusWest2sachithraindunilqatstany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-west-2",
+          "apiMode": 0,
+          "apiName": "sachithra",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/tst",
+          "resourcePath": "/indunil/qa/tst",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "oregontesty",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-west-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1579679655426
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "oregontesty",
+      "url": "https://github.com/Indunil1992/oregontesty"
+    }
+  }
+}
